@@ -4,413 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naimul Islam - Software Developer</title>
-    <meta name="description" content="Software Developer with 4 years of experience in Java, Spring Boot, Python, and JavaScript. Building scalable solutions for enterprise applications.">
+    <title>Naimul Islam</title>
+    <meta name="description" content="Software Developer specializing in AI and automation.">
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#home" class="nav-logo">Naimul Islam</a>
-            <div class="nav-menu">
-                <a href="#about" class="nav-link">About</a>
-                <a href="#experience" class="nav-link">Experience</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
+    <main class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Naimul Islam</h1>
+        </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Hi, I'm <span class="highlight">Naim</span></h1>
-                <h2 class="hero-subtitle">Software Developer & AI Engineer</h2>
-                <p class="hero-description">
-                    Software Developer with 4 years of experience in full-stack cloud-native development, now specializing in
-                    generative AI and intelligent agents. Passionate about building scalable, user-centric solutions.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn-primary">Get In Touch</a>
-                    <a href="#experience" class="btn-secondary">View My Work</a>
-                </div>
-                <div class="social-links">
-                    <a href="mailto:rifat.naimul@gmail.com" class="social-link" title="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/ringokid" class="social-link" title="LinkedIn" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/RingoKid" class="social-link" title="GitHub" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+        <div class="divider"></div>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
+        <!-- About Section with Image -->
+        <section class="about">
             <div class="about-content">
                 <div class="about-text">
-                    <p>
-                        Software Developer with 4 years of experience in full-stack cloud-native development, now specializing in the AI
-                        journey with a focus on generative AI and intelligent agents. As a Graduate Research Assistant, I am currently
-                        architecting and deploying end-to-end conversational AI agents using LlamaIndex, LangChain, and various AWS
-                        services.
+                    <p class="tagline">
+                        I build things that build things.
                     </p>
                     <p>
-                        Currently pursuing my MS in Computer Science at Georgia State University (Expected May 2025),
-                        I'm passionate about collaborating with cross-functional teams to build scalable, user-centric solutions
-                        and am eager to contribute to innovative projects in a dynamic, agile environment.
+                        Software developer turned automation enthusiast. Currently teaching AI agents
+                        to do my job so I can focus on the interesting parts.
                     </p>
-                    <div class="about-info">
-                        <div class="info-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Atlanta, GA</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-phone"></i>
-                            <span>(669) 273-5676</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-graduation-cap"></i>
-                            <span>MS Computer Science (In Progress)</span>
-                        </div>
+                    <div class="links">
+                        <a href="mailto:rifat.naimul@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                        <a href="https://github.com/RingoKid" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://linkedin.com/in/ringokid" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
                     </div>
+                </div>
+                <div class="about-image">
+                    <img src="profile.jpg" alt="Naimul Islam" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder');">
+                    <span class="image-placeholder">Your photo here</span>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Work Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">Aug 2025 - Present</div>
-                    <div class="timeline-content">
-                        <h3>Graduate Research Assistant</h3>
-                        <h4>Body Data Interface Lab • Atlanta, GA</h4>
-                        <ul>
-                            <li>Architecting and developing an end-to-end conversational AI agent with multi-tool capabilities, using Python, LangChain, and LangGraph, with a FastAPI backend deployed on AWS and LangSmith for observability</li>
-                            <li>Contributing to firmware design for wearable biosensors and implementing machine learning models for real-time data analysis in embedded systems</li>
-                        </ul>
-                        <div class="tech-stack">
-                            <span>LangChain</span>
-                            <span>LangGraph</span>
-                            <span>LlamaIndex</span>
-                            <span>FastAPI</span>
-                            <span>AWS Lambda</span>
-                            <span>DynamoDB</span>
-                            <span>SageMaker</span>
-                            <span>Vertex AI</span>
-                            <span>Docker</span>
-                            <span>Arduino</span>
-                        </div>
-                    </div>
-                </div>
+        </section>
 
-                <div class="timeline-item">
-                    <div class="timeline-date">Oct 2022 - Dec 2023</div>
-                    <div class="timeline-content">
-                        <h3>Software Development Engineer</h3>
-                        <h4>Liberty Mutual Group • Bangkok, Thailand</h4>
-                        <ul>
-                            <li>Diagnosed and resolved 200+ production issues in Spring Boot microservices by analyzing logs, system metrics, and code paths, enhancing reliability of existing systems and reducing incident response</li>
-                            <li>Improved report-generation capacity by optimizing logic and memory usage, demonstrating strong scaling solutions and raising the Excel file-size limit to 100MB to support 3x larger datasets for high-volume production environments</li>
-                        </ul>
-                        <div class="tech-stack">
-                            <span>Java</span>
-                            <span>Spring Boot</span>
-                            <span>Angular</span>
-                            <span>ASP.NET</span>
-                            <span>Jenkins</span>
-                            <span>MSSQL</span>
-                            <span>PostgreSQL</span>
-                        </div>
-                    </div>
-                </div>
+        <div class="divider"></div>
 
-                <div class="timeline-item">
-                    <div class="timeline-date">Feb 2020 - Aug 2022</div>
-                    <div class="timeline-content">
-                        <h3>Jr. Software Engineer</h3>
-                        <h4>Inovace Technologies • Dhaka, Bangladesh</h4>
-                        <ul>
-                            <li>Contributed to the full software development life cycle for new HRM software within the Human Resources Technology domain, integrating 3 types of IoT attendance devices and serving 500,000+ employees across 1,200+ client organizations</li>
-                            <li>Collaborated with cross-functional teams (mobile, web, IoT) to integrate Flutter-based mobile applications, Laravel web services for firmware, and Spring Boot microservices, ensuring seamless product delivery and architectural alignment</li>
-                            <li>Reduced API response time by 60% through caching and database optimization, improving system scalability</li>
-                        </ul>
-                        <div class="tech-stack">
-                            <span>Flutter</span>
-                            <span>Laravel</span>
-                            <span>Spring Boot</span>
-                            <span>MySQL</span>
-                            <span>PostgreSQL</span>
-                            <span>Redis</span>
-                            <span>Vue.js</span>
-                            <span>AngularJS</span>
-                        </div>
-                    </div>
-                </div>
+        <!-- Experience -->
+        <section class="experience">
+            <h2>Experience</h2>
 
-                <div class="timeline-item">
-                    <div class="timeline-date">Jun 2019 - Aug 2019</div>
-                    <div class="timeline-content">
-                        <h3>Software Developer Intern</h3>
-                        <h4>Spider Digital Commerce • Dhaka, Bangladesh</h4>
-                        <ul>
-                            <li>Independently architected and developed WeTopUp, a new system within a DevOps delivery model, processing 1,000+ daily transactions for 5,000+ active users</li>
-                        </ul>
-                        <div class="tech-stack">
-                            <span>Android</span>
-                            <span>Java</span>
-                            <span>Firebase</span>
-                            <span>RESTful APIs</span>
-                        </div>
-                    </div>
+            <div class="exp-item">
+                <div class="exp-date">2025 -</div>
+                <div class="exp-content">
+                    <h3>Body Data Interface Lab</h3>
+                    <p class="exp-role">Graduate Research Assistant</p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>ECHO - Donation Platform</h3>
-                        <div class="project-links">
-                            <a href="#" class="project-link" title="View Code">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="project-link" title="Live Demo">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <p class="project-description">
-                        Full-stack donation platform for Educational Charitable and Humanitarian Organization, 
-                        processing ~$1M annually with robust security implementation.
-                    </p>
-                    <ul class="project-features">
-                        <li>User authentication & payment integration</li>
-                        <li>Email automation system</li>
-                        <li>Donor engagement analytics</li>
-                    </ul>
-                    <div class="tech-stack">
-                        <span>Python</span>
-                        <span>Django</span>
-                        <span>JavaScript</span>
-                        <span>PostgreSQL</span>
-                    </div>
+            <div class="exp-item">
+                <div class="exp-date">2022 - 2023</div>
+                <div class="exp-content">
+                    <h3>Liberty Mutual</h3>
+                    <p class="exp-role">Software Development Engineer</p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Languages</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Python</span>
-                        <span class="skill-item">Java</span>
-                        <span class="skill-item">JavaScript</span>
-                        <span class="skill-item">C/C++</span>
-                        <span class="skill-item">Bash</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>AI/ML & Frameworks</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">LangChain</span>
-                        <span class="skill-item">LangGraph</span>
-                        <span class="skill-item">LlamaIndex</span>
-                        <span class="skill-item">FastAPI</span>
-                        <span class="skill-item">Spring Boot</span>
-                        <span class="skill-item">Django</span>
-                        <span class="skill-item">Angular</span>
-                        <span class="skill-item">Vue.js</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Cloud & DevOps</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">AWS (Lambda, SageMaker, Comprehend)</span>
-                        <span class="skill-item">GCP (Vertex AI, Cloud Vision AI)</span>
-                        <span class="skill-item">Docker</span>
-                        <span class="skill-item">Jenkins</span>
-                        <span class="skill-item">Git</span>
-                        <span class="skill-item">CI/CD</span>
-                        <span class="skill-item">Linux</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Databases</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">PostgreSQL</span>
-                        <span class="skill-item">MySQL</span>
-                        <span class="skill-item">MSSQL</span>
-                        <span class="skill-item">Oracle</span>
-                        <span class="skill-item">DynamoDB</span>
-                        <span class="skill-item">MongoDB</span>
-                        <span class="skill-item">Redis</span>
-                        <span class="skill-item">Pinecone</span>
-                    </div>
+            <div class="exp-item">
+                <div class="exp-date">2020 - 2022</div>
+                <div class="exp-content">
+                    <h3>Inovace Technologies</h3>
+                    <p class="exp-role">Software Engineer</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Education Section -->
-    <section id="education" class="education">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-grid">
-                <div class="education-item">
-                    <h3>Master of Science, Computer Science</h3>
-                    <h4>Georgia State University</h4>
-                    <p class="education-location">Atlanta, GA</p>
-                </div>
-                <div class="education-item">
-                    <h3>Bachelor of Science, Computer Science</h3>
-                    <h4>North South University</h4>
-                    <p class="education-location">Dhaka, Bangladesh</p>
-                </div>
+        <div class="divider"></div>
+
+        <!-- Contact -->
+        <section class="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <a href="mailto:rifat.naimul@gmail.com">rifat.naimul@gmail.com</a>
+                <span>Atlanta, GA</span>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Let's Connect</h2>
-            <div class="contact-content">
-                <p class="contact-description">
-                    I'm always interested in new opportunities and interesting projects. 
-                    Whether you have a question or just want to say hi, feel free to reach out!
-                </p>
-                <div class="contact-methods">
-                    <a href="mailto:rifat.naimul@gmail.com" class="contact-method">
-                        <i class="fas fa-envelope"></i>
-                        <span>rifat.naimul@gmail.com</span>
-                    </a>
-                    <a href="tel:+16692735676" class="contact-method">
-                        <i class="fas fa-phone"></i>
-                        <span>(669) 273-5676</span>
-                    </a>
-                    <div class="contact-method">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Atlanta, GA</span>
-                    </div>
-                </div>
-                <div class="social-links-large">
-                    <a href="https://linkedin.com/in/ringokid" class="social-link-large" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                        <span>LinkedIn</span>
-                    </a>
-                    <a href="https://github.com/RingoKid" class="social-link-large" target="_blank">
-                        <i class="fab fa-github"></i>
-                        <span>GitHub</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+        <div class="divider"></div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Naimul Islam. Built with ❤️ and hosted on GitHub Pages.</p>
-        </div>
-    </footer>
-
-    <!-- JavaScript for smooth scrolling, mobile menu, and animations -->
-    <script>
-        // Mobile menu toggle
-        const hamburger = document.querySelector('.hamburger');
-        const navMenu = document.querySelector('.nav-menu');
-
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navMenu.classList.toggle('active');
-        });
-
-        // Close mobile menu when clicking on a link
-        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
-            hamburger.classList.remove('active');
-            navMenu.classList.remove('active');
-        }));
-
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-
-        // Navbar background on scroll
-        window.addEventListener('scroll', () => {
-            const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
-
-        // Scroll Reveal Animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, observerOptions);
-
-        // Observe all sections and cards for scroll animations
-        document.addEventListener('DOMContentLoaded', () => {
-            const animateOnScroll = document.querySelectorAll('.timeline-item, .project-card, .skill-category, .education-item');
-            animateOnScroll.forEach(el => {
-                el.classList.add('fade-in');
-                observer.observe(el);
-            });
-        });
-    </script>
+        <footer>
+            <p>Naimul Islam</p>
+        </footer>
+    </main>
 </body>
 
 </html>
